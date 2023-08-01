@@ -285,7 +285,19 @@ textarea {
   height: 6.6875rem;
 }
 
+.skills__name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 500px) {
+  .skills__name {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   form {
     align-items: center;
   }
